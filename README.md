@@ -80,7 +80,7 @@
   ## 4. prototype design pattern ##
   
   In prototype design pettern objects are created as clone or copy of created one specific object To clone an object, a constructor must exist to instantiate       the first object. Next, by using the keyword prototype variables and methods bind to the object’s structure. 
-  Let’s look at a basic example:
+   Let’s look at a basic example:
   
   
       var car= function() {
