@@ -111,7 +111,7 @@
     
    ## 5. singleton design pattern ##
    
-   *** A Singleton only allows for a single instantiation, but many instances of the same object. The Singleton creating multiple objects,after the first object          created, it will return instances of itself *** 
+   A Singleton only allows for a single instantiation, but many instances of the same object. The Singleton creating multiple objects,after the first object          created, it will return instances of itself.
    
       class Singleton {
        static instance;
