@@ -1,5 +1,5 @@
 # 5 Design pattern of Java Script # 
- ## 1. module design pattern ## 
+ ## 1. Module Design Pattern ## 
    This design pattern is most popular design pattern for maintaining particuler pieces of code independent of other code.Module are javascript classes It is        similar to the one of oops feature  which is called encapsulation which hide the data from outside the class by using public private access. for making this      we make closer in java script.
   
   Let’s look at a basic example:
@@ -60,7 +60,7 @@
     Mountblue.sayHello();
     Mountblue.sayWelcome();
     
-  ## 3. constructor design pattern ##
+  ## 3. Constructor Design Pattern ##
   
   In object oriented programming language constructor are used to initialize the object. in javaScrip as everything in object for initializing we use               constructor . Constructor will call at the time of creation.
   
@@ -80,7 +80,7 @@
     var obj1 = new Student (suneja,20,mhow);
     console.log(obj1.toString());
   
-  ## 4. prototype design pattern ##
+  ## 4. Prototype Design Pattern ##
   
   In prototype design pettern objects are created as clone or copy of created one specific object To clone an object, a constructor must exist to instantiate       the first object. Next, by using the keyword prototype variables and methods bind to the object’s structure. 
    
@@ -109,7 +109,7 @@
 
     }();
     
-   ## 5. singleton design pattern ##
+   ## 5. Singleton Design Pattern ##
    
    A Singleton only allows for a single instantiation, but many instances of the same object. The Singleton creating multiple objects,after the first object          created, it will return instances of itself.
    
