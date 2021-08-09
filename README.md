@@ -1,7 +1,8 @@
 # 5 Design pattern of Java Script # 
  ## 1. module design pattern ## 
-   This design pattern is most popular design pattern for maintaining particuler pieces of code independent of other code.Module are javascript classes It is        similar to the one of oops feature  which is called encapsulation which hide the data from outside the class by using public private access. for making this      we make closer in java script***
-   Let’s look at a basic example:
+   This design pattern is most popular design pattern for maintaining particuler pieces of code independent of other code.Module are javascript classes It is        similar to the one of oops feature  which is called encapsulation which hide the data from outside the class by using public private access. for making this      we make closer in java script.
+  
+  Let’s look at a basic example:
   
       var counter = (function(){
         var priveteCounter = 0;
@@ -42,6 +43,7 @@
   ## 2. Revealing Module Pattern ##
    
   It is an type of module design pattern with aditional feature here we make closer for both public and private properties.The purpose is to maintain                encapsulation and reveal certain variables and methods returned in an object literal. 
+  
   Let’s look at a basic example:
     
     var Mountblue = (function(){
@@ -60,7 +62,8 @@
     
   ## 3. constructor design pattern ##
   
-  In object oriented programming language constructor are used to initialize the object. in javaScrip as everything in object for initializing we use               constructor . Constructor will call at the time of creation
+  In object oriented programming language constructor are used to initialize the object. in javaScrip as everything in object for initializing we use               constructor . Constructor will call at the time of creation.
+  
   Let’s look at a basic example:
   
     function Student( name, age, city ) {
@@ -80,7 +83,8 @@
   ## 4. prototype design pattern ##
   
   In prototype design pettern objects are created as clone or copy of created one specific object To clone an object, a constructor must exist to instantiate       the first object. Next, by using the keyword prototype variables and methods bind to the object’s structure. 
-   Let’s look at a basic example:
+   
+  Let’s look at a basic example:
   
   
       var car= function() {
@@ -107,7 +111,7 @@
     
    ## 5. singleton design pattern ##
    
-   A Singleton only allows for a single instantiation, but many instances of the same object. The Singleton creating multiple objects,after the first object          created, it will return instances of itself 
+   *** A Singleton only allows for a single instantiation, but many instances of the same object. The Singleton creating multiple objects,after the first object          created, it will return instances of itself *** 
    
       class Singleton {
        static instance;
